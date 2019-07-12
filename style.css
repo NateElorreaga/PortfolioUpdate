@@ -1,7 +1,6 @@
 .heading{
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-family: 'Pacifico', cursive;
     font-size: 30px;
     width: 25%;
     margin-left: 143px;
@@ -12,17 +11,20 @@
     padding: 11px 0 12px 0;
     text-align: center;
 }
+body{
+    background: url(Images/email-pattern.png);
+}
 .nav{
     position: relative;
     height: 60px;
     border-bottom: 1px solid #777777;
-    background-color: #ffffff;
+    background: #777777;
     margin-bottom: 20px;
     padding: 15px;
 }
 
 .nav-link{
-    color: #777777;
+    color: white;
     padding: 0 50px 0 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -30,7 +32,7 @@
 .container-fluid{
     width: 80%;
     background: #ffffff;
-    height: 875px;
+    height: 900px;
     margin-top: 20px;
     border: 2px solid #cccccc;
     margin-bottom: 300px;
@@ -107,4 +109,18 @@ border: none;
     background:#666666!important;
     width: 100%;
 }
-
+.portfolio-card{
+    margin-top: 10px;
+    border: 1px solid rgb(182, 194, 206);
+    padding: 10px;
+    text-align: center;
+}
+.list-group{
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+}
+#contact-info{
+    background-color: #4aaaa5;
+    border: none;
+}
