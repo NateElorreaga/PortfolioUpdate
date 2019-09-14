@@ -156,5 +156,8 @@ border: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .portfolio-footer{
-    position: relative;
+position: relative;
+}
+.index-footer{
+ position: relative;
 }
