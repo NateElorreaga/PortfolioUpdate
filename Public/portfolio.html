@@ -1,124 +1,145 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <!--Google Fonts CDN-->
-     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-     
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
-  </head>
-  <body background="images/StyleImage.png">
-    
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- nav bar -->
-    
-<ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" href="index.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="portfolio.html">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="contact.html">Contact</a>
-    </li>
-  </ul>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Google Fonts CDN-->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2955fdb918.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
 
-  <h1 class="heading">Nathan Elorreaga</h1>
-
-    <!-- container -->
-   
-
-        <!--portfolio images go here -->
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                  <div class="col-sm">
-                      <div class="card mb-3 portfolio-card">
-                          <img src="Images/liri-project.JPG" class="card-img-top" alt="liri bot">
-                          <div class="card-body">
-                            <a href="https://github.com/NateElorreaga/liri-node-app.git">
-                              <h5 class="card-title">Liri Bot</h5>
-                            </a>
-                            <p class="card-text">LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.</p>
-                            <p class="card-text"><small class="text-muted">Created July 20, 2019</small></p>
-                          </div>
-                          </div>
-                      <div class="card mb-3 portfolio-card">
-                          <img src="Images/project-1.JPG" class="card-img-top" alt="project 1">
-                          <div class="card-body">
-                            <a href="https://nateelorreaga.github.io/Project1_Group1/"><h5 class="card-title">Event Easy</h5></a>
-                            <p class="card-text">Find local events in your area code. Won an award for "Best Use of Tech".</p>
-                            <p class="card-text"><small class="text-muted">Created July 6, 2019</small></p>
-                          </div>
-                        </div>
+<body background="images/StyleImage.png">
 
 
-                  </div>
-                  <div class="col-sm">
-                      <div class="card mb-3 portfolio-card">
-                          <img src="Images/trainScheduler.JPG" class="card-img-top" alt="train scheduler">
-                          <div class="card-body">
-                            <a href="https://nateelorreaga.github.io/trainScheduler/"><h5 class="card-title">Train Scheduler</h5></a>
-                            <p class="card-text">Create a train and let the tracker do the rest. Never miss a train again.</p>
-                            <p class="card-text"><small class="text-muted">Created June 26, 2019</small></p>
-                          </div>
-                        </div>
-                    <div class="card mb-3 portfolio-card">
-                      <img src="Images/crystalGame.JPG" class="card-img-top" alt="crystal game">
-                      <div class="card-body">
-                        <a href="https://nateelorreaga.github.io/unit-4-game/"><h5 class="card-title">Crystal Game</h5></a>
-                        <p class="card-text">Generates a random number that the user must match to win.</p>
-                        <p class="card-text"><small class="text-muted">Created June 4, 2019</small></p>
-                      </div>
-                    </div>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-light bg-light sticky-top navbar-top">
+    <a class="navbar-brand top-namelink" href="index.html">
+      <!-- <img src="#" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+      <i class="fas fa-pepper-hot"><span class="top-name">Nate Elorreaga</span></i>
+
+    </a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- container -->
+  <!--portfolio images go here -->
+  <div class="container-fluid clearfix portfolio-container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="card mb-3 portfolio-card">
+            <img src="Images/liri-project.JPG" class="card-img-top" alt="liri bot">
+            <div class="card-body">
+              <a href="https://github.com/NateElorreaga/liri-node-app.git">
+                <h5 class="card-title">Liri Bot</h5>
+              </a>
+              <p class="card-text">LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command
+                line node app that takes in parameters and gives you back data.</p>
+              <p class="card-text"><small class="text-muted">Created July 20, 2019</small></p>
+            </div>
+          </div>
+          <div class="card mb-3 portfolio-card">
+            <img src="Images/project-1.JPG" class="card-img-top" alt="project 1">
+            <div class="card-body">
+              <a href="https://nateelorreaga.github.io/Project1_Group1/">
+                <h5 class="card-title">Event Easy</h5>
+              </a>
+              <p class="card-text">Find local events in your area code. Won an award for "Best Use of Tech".</p>
+              <p class="card-text"><small class="text-muted">Created July 6, 2019</small></p>
+            </div>
+          </div>
 
 
-                  </div>
-                  <div class="col-sm">
+        </div>
+        <div class="col-sm">
+          <div class="card mb-3 portfolio-card">
+            <img src="Images/trainScheduler.JPG" class="card-img-top" alt="train scheduler">
+            <div class="card-body">
+              <a href="https://nateelorreaga.github.io/trainScheduler/">
+                <h5 class="card-title">Train Scheduler</h5>
+              </a>
+              <p class="card-text">Create a train and let the tracker do the rest. Never miss a train again.</p>
+              <p class="card-text"><small class="text-muted">Created June 26, 2019</small></p>
+            </div>
+          </div>
+          <div class="card mb-3 portfolio-card">
+            <img src="Images/crystalGame.JPG" class="card-img-top" alt="crystal game">
+            <div class="card-body">
+              <a href="https://nateelorreaga.github.io/unit-4-game/">
+                <h5 class="card-title">Crystal Game</h5>
+              </a>
+              <p class="card-text">Generates a random number that the user must match to win.</p>
+              <p class="card-text"><small class="text-muted">Created June 4, 2019</small></p>
+            </div>
+          </div>
 
-                      <div class="card mb-3 portfolio-card">
-                          <img src="Images/gifTastic.JPG" class="card-img-top" alt="gif tastic">
-                          <div class="card-body">
-                            <a href="https://nateelorreaga.github.io/GifTasticRepo/"><h5 class="card-title">Gif-Tastic</h5></a>
-                            <p class="card-text">Search a word that automatically creates a button. Click to generate gifs.</p>
-                            <p class="card-text"><small class="text-muted">Created June 24, 2019</small></p>
-                          </div>
-                        </div>
-                        <div class="card mb-3 portfolio-card">
-                            <img src="Images/Project_2 (Hoarder Helper).JPG" class="card-img-top" alt="Hoarder Helper">
-                            <div class="card-body">
-                              <a href="https://hoarder-helper.herokuapp.com/"><h5 class="card-title">Hoarder Helper</h5></a>
-                              <p class="card-text">Connecting people with extra space to people with extra stuff!</p>
-                              <p class="card-text"><small class="text-muted">Created September 7, 2019</small></p>
-                            </div>
-                          </div>
-                  </div>
-                </div>
-              </div>
-              <br>
-              <br>
-    
+
+        </div>
+        <div class="col-sm">
+
+          <div class="card mb-3 portfolio-card">
+            <img src="Images/gifTastic.JPG" class="card-img-top" alt="gif tastic">
+            <div class="card-body">
+              <a href="https://nateelorreaga.github.io/GifTasticRepo/">
+                <h5 class="card-title">Gif-Tastic</h5>
+              </a>
+              <p class="card-text">Search a word that automatically creates a button. Click to generate gifs.</p>
+              <p class="card-text"><small class="text-muted">Created June 24, 2019</small></p>
+            </div>
+          </div>
+          <div class="card mb-3 portfolio-card">
+            <img src="Images/Project_2 (Hoarder Helper).JPG" class="card-img-top" alt="Hoarder Helper">
+            <div class="card-body">
+              <a href="https://hoarder-helper.herokuapp.com/">
+                <h5 class="card-title">Hoarder Helper</h5>
+              </a>
+              <p class="card-text">Connecting people with extra space to people with extra stuff!</p>
+              <p class="card-text"><small class="text-muted">Created September 7, 2019</small></p>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  <br>
+  <br>
 
 
   <!-- footer -->
-<!-- As a heading -->
-<nav class="navbar navbar-light bg-light">
+  <!-- As a heading -->
+  <nav class="navbar navbar-footer portfolio-footer">
     <span class="navbar-brand mb-0 h1"></span>
-    <p class ="copyright">Created by Nate Elorreaga</p>
-</nav>
+    <p class="copyright">Created by Nate Elorreaga</p>
+  </nav>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

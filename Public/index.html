@@ -1,73 +1,112 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>About Me</title>
-  
-    <!--Google Fonts CDN-->
-    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-    
-  </head>
-  <body background="images/StyleImage.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>About Me</title>
 
-    <!-- nav bar -->
-    
-<ul class="nav justify-content-end">
+  <!--Google Fonts CDN-->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 
-    <li class="nav-item">
-      <a class="nav-link active" href="index.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="portfolio.html">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="contact.html">Contact</a>
-    </li>
-</ul>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2955fdb918.js"></script>
 
-<h1 class="heading">Nathan Elorreaga</h1>
+  <!-- Octicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/build.css">
+</head>
+
+<body background="images/StyleImage.png">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-light bg-light sticky-top navbar-top">
+    <a class="navbar-brand top-namelink" href="index.html">
+      <!-- <img src="#" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+      <i class="fas fa-pepper-hot"><span class="top-name">Nate Elorreaga</span></i>
+
+    </a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
   <!-- container -->
-  <div class="container-fluid">
-      <h1 class ="pageName">About Me</h1>
-      <hr>
-      
-    <div class="card">
-            <div class="card-body">
-                    <img src="./Images/Murph_Nate.jpg" class="rounded float-left" alt="Murph(Golden Retriever) & Nate">
-
-                    <p>
-                      My dream job is to work remote and enjoy as much time outside as possible. I think that this bootcamp is the first
-                      step to living that dream. I know there will be a lot of tough times ahead, staring at the screen with ill intent, but I look forward to the reward on the otherside.
-                      To me coding is like hiking to the summit of a mounatin. The incline never stops, you reach a few false peaks when you think you've finally made it, and you continually doubt yourself.
-                      But then you make it and the view is glorius. You suddenly forget about all of struggle and its pure bliss. Then its on to the next one!
-                    </p>
-
-           
-            </div>
-          </div>
+    <div class="container profile-container">
+        <h1 class="pageName">Hello, Future Employer</h1>
+        <hr>
+      <div class="row">
+        <div class="col-4 profile-img-div"><img src="./Images/Murph_Nate.jpg" class="rounded" alt="Murph(Golden Retriever) & Nate">
+        </div>
+        <div class="col-8">
+          <h2>A Little About Me...</h2>
+          <p>
+            My dream job is to work remote and enjoy as much time outside as possible. I think that this bootcamp is the
+            first
+            step to living that dream. I know there will be a lot of tough times ahead, staring at the screen with ill
+            intent, but I look forward to the reward on the otherside.
+            To me coding is like hiking to the summit of a mounatin. The incline never stops, you reach a few false
+            peaks
+            when you think you've finally made it, and you continually doubt yourself.
+            But then you make it and the view is glorious. You suddenly forget about all of struggle and its pure bliss.
+            Then its on to the next one!
+          </p>
+          <br>
+          <h2>Facts About Me</h2>
+          <ul>
+            <li>I have a Master's Degree in Tax</li>
+            <li>I am currently a Merchandise Operations Manager at Overstock</li>
+            <li>I paddleboarded a Norway fjord unsupported for 5 days.</li>
+            <li>I love learning new technology</li>
+          </ul>
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Handlebars.js</li>
+            <li>Node.js</li>
+            <li>ExpressJS</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+          </ul>
+          <br>
+        </div>
+      </div>
     </div>
 
-  <!-- footer -->
-<!-- As a heading -->
-<nav class="navbar navbar-light bg-light">
-    <span class="navbar-brand mb-0 h1"></span>
-</nav>
+    <!-- footer -->
+    <!-- As a heading -->
+    <nav class="navbar navbar-footer">
+      <span class="navbar-brand mb-0 h1"></span>
+      <p class="copyright">Created by Nate Elorreaga</p>
+    </nav>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
-
-
-
